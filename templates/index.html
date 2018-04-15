@@ -4,8 +4,10 @@
     <h1>All Posts</h1>
     
         {% for post in posts %}
+        <div>
             <h2><a href= "/?id={{post.id}}">{{post.title}}</a></h2>
-            <p>{{post.content}}</p>
+            <div class= "post">{{post.content}}</div>
+        </div>
         {% endfor %}
 
 

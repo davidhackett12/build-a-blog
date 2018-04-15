@@ -1,8 +1,12 @@
-textarea {
-    height: 2em;
-    width: 2em;
-}
 
 span{
     color: red;
+}
+
+body {
+    background-color: paleturquoise;
+}
+
+textarea {
+    width: 20px;
 }
