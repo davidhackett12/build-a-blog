@@ -7,3 +7,7 @@ body {
     background-color: paleturquoise;
 }
 
+.time {
+    font-size: 75%;
+    font-style: italic;
+}

@@ -6,6 +6,8 @@
         {% for post in posts %}
         <div>
             <h2><a href= "/?id={{post.id}}">{{post.title}}</a></h2>
+            <div class="time"> Date Posted: {{post.pub_date}}</div>
+            <br>
             <div class= "post">{{post.content}}</div>
         </div>
         {% endfor %}
